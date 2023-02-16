@@ -45,7 +45,7 @@ class JokesActivity : AppCompatActivity() {
             })
         }
 
-        startCoroutineTimer(0L, 10000) {
+        startCoroutineTimer(0L, 1000 * 60) {
             try {
                 if (isNetworkAvailable()) {
                     postViewModel.getJokes()

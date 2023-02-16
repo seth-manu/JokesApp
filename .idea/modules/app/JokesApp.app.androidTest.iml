@@ -20,7 +20,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/616dcece09eb1bf2980367d295c19a45/databinding-runtime-4.1.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/4.1.1/135fcbb4e3cb4f16b93a16c800776a48d2ce840/databinding-common-4.1.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e3cbb22aba1275af308b0b7fdf56f1e/constraintlayout-2.0.4-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c813aa8ad218ca5e455b698165d0557/jetified-koin-android-architecture-0.8.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a1be35b4c17087ffb20f6f32e4df33c/jetified-koin-android-architecture-0.8.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab8a73b18376983a7ed76ee8cea64df9/appcompat-1.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3de7fbff184992e5136cd7cebe3105f4/cardview-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c15d81e5bfa363d3fbea1913d892814a/recyclerview-1.1.0-api.jar</arg>
@@ -69,8 +69,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/642d531c4e31c1d221b72b91cb5c198a/jetified-retrofit-2.9.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/883e5e842158980d461b2f80dfee1a34/jetified-moshi-1.9.3.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50f8c5c06c456a2b44a5059b61f6071c/jetified-logging-interceptor-4.8.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43b5a46ae15aec7388fba067ae88f6a8/jetified-koin-android-viewmodel-2.0.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42bebda648aa918a35c35fb0d75d5118/jetified-koin-android-scope-2.0.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7ad713b4bb62e0b41ad3e9a21934c1e/jetified-koin-android-viewmodel-2.0.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2760a5d24275ffd86bda9c4dad1d0e0a/jetified-koin-android-scope-2.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b78053561276503b82a66a2f64baf953/jetified-koin-android-2.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/451b46445532343e3556e13a11ae63ba/jetified-koin-core-2.0.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f709b4fe3f38417d304b747eb7c1c7ce/jetified-kotlinx-coroutines-android-1.3.9.jar</arg>
@@ -81,8 +81,8 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.4/1f001d7db280a89a6c26b26a66eb064bb6d5efeb/constraintlayout-solver-2.0.4.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ca07387bb123ecf124d5c264870a799/jetified-kotlin-stdlib-common-1.4.20.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8899d7844bca2ce5763f0cae7e8bc225/jetified-annotations-13.0.jar</arg>
-                <arg>$USER_HOME$/Library/Android/sdk/platforms/android-30/android.jar</arg>
-                <arg>$USER_HOME$/Library/Android/sdk/build-tools/29.0.2/core-lambda-stubs.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-30/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/29.0.2/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugAndroidTest" />
@@ -147,7 +147,9 @@
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debugAndroidTest" />
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugAndroidTest" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugAndroidTest" isTestSource="true" generated="true" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../app/src/androidTest">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTest/java" isTestSource="true" />
     </content>
